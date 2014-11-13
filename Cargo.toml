@@ -4,8 +4,8 @@ name = "variants"
 version = "0.1.0"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 
-[lib]
+[features]
 
-name = "variants"
-path = "src/lib.rs"
+# Enables #[deriving(Encodable, Decodable)]
+serialize = []
 
